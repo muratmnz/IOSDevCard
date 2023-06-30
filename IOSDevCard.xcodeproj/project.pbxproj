@@ -11,6 +11,8 @@
 		6830A5C32A4EDE3400EE3994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6830A5C22A4EDE3400EE3994 /* ContentView.swift */; };
 		6830A5C52A4EDE3600EE3994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6830A5C42A4EDE3600EE3994 /* Assets.xcassets */; };
 		6830A5C82A4EDE3600EE3994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6830A5C72A4EDE3600EE3994 /* Preview Assets.xcassets */; };
+		6830A5D02A4EEA7700EE3994 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6830A5CF2A4EEA7700EE3994 /* Lobster-Regular.ttf */; };
+		6830A5D22A4EEAD400EE3994 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6830A5D12A4EEAD400EE3994 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6830A5C22A4EDE3400EE3994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6830A5C42A4EDE3600EE3994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6830A5C72A4EDE3600EE3994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6830A5CF2A4EEA7700EE3994 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		6830A5D12A4EEAD400EE3994 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		6830A5BF2A4EDE3400EE3994 /* IOSDevCard */ = {
 			isa = PBXGroup;
 			children = (
+				6830A5CE2A4EEA1D00EE3994 /* fonts */,
 				6830A5C02A4EDE3400EE3994 /* IOSDevCardApp.swift */,
 				6830A5C22A4EDE3400EE3994 /* ContentView.swift */,
+				6830A5D12A4EEAD400EE3994 /* Launch Screen.storyboard */,
 				6830A5C42A4EDE3600EE3994 /* Assets.xcassets */,
 				6830A5C62A4EDE3600EE3994 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				6830A5C72A4EDE3600EE3994 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6830A5CE2A4EEA1D00EE3994 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6830A5CF2A4EEA7700EE3994 /* Lobster-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6830A5C82A4EDE3600EE3994 /* Preview Assets.xcassets in Resources */,
+				6830A5D02A4EEA7700EE3994 /* Lobster-Regular.ttf in Resources */,
+				6830A5D22A4EEAD400EE3994 /* Launch Screen.storyboard in Resources */,
 				6830A5C52A4EDE3600EE3994 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
