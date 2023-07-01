@@ -29,13 +29,8 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 20))
                 Divider()
-                RoundedRectangle(cornerRadius: 25)
-                    .fill(Color(.white))
-                    .frame(height: 40)
-                    .overlay(HStack {
-                        Image(systemName: "phone.fill").foregroundColor(.green)
-                        Text("+90 123 123 45 67").foregroundColor(.black)
-                    })
+                infoView(imageName: "phone.fill", text: "+90 123 456 78 90")
+                infoView(imageName: "envelope.fill", text: "muratmnz@test.com")
             }
         }
     }
@@ -44,5 +39,22 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct infoView: View {
+    
+    let imageName : String
+    let text : String
+    
+    var body: some View {
+        RoundedRectangle(cornerRadius: 25)
+            .fill(Color(.white))
+            .frame(height: 40)
+            .overlay(HStack {
+                Image(systemName: imageName).foregroundColor(.green)
+                Text(text).foregroundColor(.black)
+            })
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
